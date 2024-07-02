@@ -9,7 +9,7 @@ import service.TodoListServiceImpl;
 public class TodoListServiceTest {
 
     public static void main(String[] args) {
-        testShowTodoList();
+        testAddTodoList();
     }
 
     public static void testShowTodoList(){
@@ -25,6 +25,7 @@ public class TodoListServiceTest {
     }
 
     public static void testAddTodoList(){
+
         TodoListRepository todoListRepository = new TodoListRepositoryImpl();
         TodoListService todoListService = new TodoListServiceImpl(todoListRepository);
 
@@ -33,6 +34,7 @@ public class TodoListServiceTest {
         todoListService.addTodoList("Belajar Java Standard Classes");
 
         todoListService.showTodoList();
+
     }
 
     public static void testRemoveTodoList(){
