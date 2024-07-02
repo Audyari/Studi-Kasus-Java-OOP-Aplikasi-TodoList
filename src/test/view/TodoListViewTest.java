@@ -10,7 +10,7 @@ public class TodoListViewTest {
 
 
     public static void main(String[] args) {
-        testAddTodoList();
+        testRemoveTodoList();
     }
 
     public static void testShowTodoList(){
