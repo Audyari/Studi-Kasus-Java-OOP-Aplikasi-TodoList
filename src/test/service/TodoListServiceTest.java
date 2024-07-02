@@ -9,7 +9,7 @@ import service.TodoListServiceImpl;
 public class TodoListServiceTest {
 
     public static void main(String[] args) {
-        testAddTodoList();
+        testRemoveTodoList();
     }
 
     public static void testShowTodoList(){
